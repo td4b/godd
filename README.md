@@ -4,7 +4,13 @@ A Simple block copy and write utility for low level systems programming.
 # Installation
 
 ```bash
-go install https://github.com/td4b/godd
+go install github.com/td4b/godd@latest
+```
+
+Update your path or copy the binary to where you want to use it.
+
+```bash
+export PATH=$PATH:$HOME/go/bin/godd
 ```
 
 # Example usage
