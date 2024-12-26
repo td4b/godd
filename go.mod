@@ -1,8 +1,6 @@
 module github.com/td4b/godd
 
-go 1.22
-
-toolchain go1.22.10
+go 1.23.4
 
 require github.com/schollz/progressbar/v3 v3.17.1
 
