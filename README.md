@@ -34,3 +34,12 @@ Example of copying a source file descriptor to a destination.
 ```bash
 godd -if=source.txt -of=dest.txt
 ```
+
+# Test Cases
+
+Using dd to generate a source or dest file for test cases (random), for byte size testing.
+```bash
+dd if=/dev/urandom bs=1M count=2000 | tr -dc '01' > source.txt
+```
+
+Add structured data testing (Copy Linux Kernel and Grub boot loader) and ensure the system boots.
