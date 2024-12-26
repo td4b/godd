@@ -1,4 +1,4 @@
-module godd
+module github.com/td4b/godd
 
 go 1.22
 
